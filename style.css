@@ -43,6 +43,7 @@ body{
     color: #FFFFFF;
     margin-bottom: 17px;
     padding-left: 14px;
+    cursor: pointer;
 }
 #left{
     height: 100%;
@@ -76,6 +77,7 @@ body{
     border-radius: 20px;
     height: 19px;
     width: 19px;
+    cursor: pointer;
 }
 .sty:hover{
     background-color: #f1f1f7;
@@ -85,6 +87,7 @@ body{
 }
 .signin{
     color: rgb(28, 72, 232);
+    cursor: pointer;
 }
 .footer {
   font-size: 12px;
@@ -98,4 +101,70 @@ body{
   src: url('./fonts/SF-Pro-Display-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+}
+@media (max-width: 768px) {
+  
+  #wrapper {
+    position: absolute;
+  width: 342px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap:2px;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-left: 100px; */
+}
+  .Image {
+    position: relative;
+  width: 330px;
+  height: 200px;
+  border-radius: 15px;
+}
+.design{
+    height: 42px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #F7FBFF;
+    color: #8897AD;
+    margin-bottom: 17px;
+    padding-left: 14px;
+    font-size:14px;
+}
+#left h2{
+    height: 24px;
+    width: 342px;
+    padding: 10px;
+}
+#left h2 p{
+    height: 24px;
+    width: 342px;
+    padding: 10px;
+}
+form{
+  height: 234px;
+  width: 342px;
+}
+#others{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 90px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+#left{
+  width: 342px;
+}
+#right{
+    height: 100%;
+    width: 342px;
+}
+.para{
+  font-size: 16px;
+}
+.signinbtn{
+  cursor: pointer;
+}
 }
